@@ -2,7 +2,7 @@
 // GET — lightweight health check for uptime monitors
 
 import { NextResponse } from "next/server";
-import { getDb } from "@/lib/firebase";
+import { getDb } from "@/lib/firebase/admin";
 
 export async function GET() {
   try {

@@ -6,10 +6,10 @@ const nextConfig = {
   compress: true,
   
   // Optimize for production
-  experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['html5-qrcode']
-  },
+  // experimental: {
+  //   optimizeCss: true,
+  //   optimizePackageImports: ['html5-qrcode']
+  // },
   
   // Security headers
   async headers() {
