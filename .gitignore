@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-.npm
+.npm/
 
 # Next.js
 .next/
@@ -12,9 +12,10 @@ build/
 .env.local
 .env.*.local
 
-# Firebase service account
+# Firebase service account - NEVER commit
 serviceAccount.json
 *.json.key
+firebase-credentials.json
 
 # OS
 .DS_Store
@@ -23,3 +24,16 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
